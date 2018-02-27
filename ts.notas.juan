@@ -1,0 +1,3 @@
+compilar : tsc --watch
+
+correr archivos js : node archivo.js
