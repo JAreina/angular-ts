@@ -1,7 +1,7 @@
-class Animal {
+export abstract class Animal {
    //con modificadores de acceso private, public, protected
    // no hace falta declarar variables y luego en el contructor asignarlas con this
-    constructor(protected _nombre:string, public patas:number) {
+    constructor(protected _nombre:string, public extremidades:number) {
      
     }
 
@@ -20,4 +20,8 @@ class Animal {
 get nombre():string{
     return this._nombre;
 }
+
+
+
+  abstract moverse():void;
 }
