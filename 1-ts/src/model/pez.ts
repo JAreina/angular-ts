@@ -6,10 +6,17 @@ export class Pez extends Animal{
         super(nombre,aletas)
     }
 
+
+    //override de animal
     moverse():void{
         console.log(`${this.nombre} HAS LLEGADO...`);
 
 
+    }
+
+
+    hablar(){
+        console.log(`el ${this.nombre} ha dicho HOLA`)
     }
     
     

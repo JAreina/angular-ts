@@ -18,8 +18,12 @@ var Pez = /** @class */ (function (_super) {
         _this.color = color;
         return _this;
     }
+    //override de animal
     Pez.prototype.moverse = function () {
         console.log(this.nombre + " HAS LLEGADO...");
+    };
+    Pez.prototype.hablar = function () {
+        console.log("el " + this.nombre + " ha dicho HOLA");
     };
     return Pez;
 }(animales_1.Animal));
