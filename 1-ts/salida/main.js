@@ -9,3 +9,8 @@ console.log(pez1.moverse());
 console.log(pez1.hablar());
 // CONVERSION DE TIPOS TAMBIEN ASI
 console.log(pez1.hablar());
+// ASIGNAR CON LA funcion set de la clase --
+pez1.nombre = "NUEVO NOMBRE DEL PEZ";
+console.log(pez1);
+// metodo get 
+console.log(pez1.nombre);

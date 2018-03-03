@@ -16,3 +16,10 @@ console.log((pez1 as Pez).hablar());
 
 // CONVERSION DE TIPOS TAMBIEN ASI
 console.log((<Pez>pez1).hablar());
+
+// ASIGNAR CON LA funcion set de la clase --
+pez1.nombre= "NUEVO NOMBRE DEL PEZ";
+console.log(pez1 );
+
+// metodo get 
+console.log(pez1.nombre);
