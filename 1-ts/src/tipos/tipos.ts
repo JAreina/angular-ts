@@ -30,3 +30,9 @@ console.log("enum: "+primerDia);
 
 console.log("enum VALOR:  "+dia[0]);
 console.log("enum VALOR: "+dia[dia.MARTES]);
+
+
+
+// any
+
+let vari:any;
