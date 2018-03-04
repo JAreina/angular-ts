@@ -1,3 +1,22 @@
 compilar : tsc --watch
 
 correr archivos js : node archivo.js
+
+---
+
+ng build --prod
+
+---
+
+SERVIDOR :
+
+npm install -g http-server
+
+--
+
+test
+
+
+ng test
+
+----
