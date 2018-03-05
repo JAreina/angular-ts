@@ -2,10 +2,11 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { RutasModule } from './rutas/rutas.module';
+
 
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { MaterialModule } from './componentes/material/material.module';
+import { RutasRoutingModule } from './rutas/rutas-routing.module';
 
 
 
@@ -14,7 +15,7 @@ import { MaterialModule } from './componentes/material/material.module';
     AppComponent
   ],
   imports: [// dependencias del modulo
-    BrowserModule,RutasModule,
+    BrowserModule,RutasRoutingModule,
     BrowserAnimationsModule,
     MaterialModule  // para animaciones 
   ],
