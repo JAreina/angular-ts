@@ -5,3 +5,4 @@ material.io/icons   ::  http://google.github.io/material-design-icons/#getting-i
 
 
  ng generate module /componentes/material --module app
+ng generate component  /componentes/material/1 --module /componentes/material
