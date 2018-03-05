@@ -1,3 +1,7 @@
 material.angular.io
 
 material.io/icons   ::  http://google.github.io/material-design-icons/#getting-icons
+
+
+
+ ng generate module /componentes/material --module app

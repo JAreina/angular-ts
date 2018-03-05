@@ -3,15 +3,20 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { RutasModule } from './rutas/rutas.module';
-import { LoginComponent } from './componentes/login/login.component';
+
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { MaterialModule } from './componentes/material/material.module';
+
+
+
 @NgModule({
   declarations: [ //nuestros compoentes
-    AppComponent, LoginComponent
+    AppComponent
   ],
   imports: [// dependencias del modulo
     BrowserModule,RutasModule,
-    BrowserAnimationsModule  // para animaciones 
+    BrowserAnimationsModule,
+    MaterialModule  // para animaciones 
   ],
   providers: [],
   bootstrap: [AppComponent]
