@@ -8,20 +8,23 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatButtonModule} from '@angular/material/button';
 //importar iconos
 import {MatIconModule} from '@angular/material/icon';
-
+//menu
+import {MatMenuModule} from '@angular/material/menu';
 
 @NgModule({
   imports: [
     CommonModule,
     MatToolbarModule,
     MatButtonModule,
-    MatIconModule
+    MatIconModule,
+    MatMenuModule
   ],
   exports: 
   [ //export para poder usar en otros componentes
     MatToolbarModule,
     MatButtonModule,
-    MatIconModule
+    MatIconModule,
+    MatMenuModule
   ],
   declarations: [UnoComponent]
 })
