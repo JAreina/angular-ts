@@ -1,15 +1,6 @@
 <!--COMPONENT MATERIAL .-->
 <mat-toolbar >
-    <mat-menu #appMenu="matMenu">
-        <ng-template matMenuContent>
-          <button mat-menu-item ><a routerLink="/" mat-icon-button>INICIO</a></button>
-          <button mat-menu-item><a routerLink="/uno" mat-icon-button>Uno</a></button>
-        </ng-template>
-      </mat-menu>
-
-
-
-
+    
   <button mat-icon-button 
   mat-icon-button [matMenuTriggerFor]="appMenu">
     <mat-icon>list</mat-icon>
@@ -19,6 +10,16 @@
   <!-- This fills the remaining space of the current row -->
   
 </mat-toolbar>
+
+
+  <!--<a routerLink="/" mat-icon-button>INICIO</a>
+<a routerLink="/uno" mat-icon-button>Uno</a> -->
+<mat-menu #appMenu="matMenu">
+  <ng-template matMenuContent>
+    <button mat-menu-item routerLink="/" >INICIO</button>
+    <button mat-menu-item routerLink="/uno">Uno</button>
+  </ng-template>
+</mat-menu>
 
 <router-outlet></router-outlet>
 

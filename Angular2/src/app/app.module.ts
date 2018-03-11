@@ -6,16 +6,18 @@ import { AppComponent } from './app.component';
 
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { MaterialModule } from './componentes/material/material.module';
-import { RutasRoutingModule } from './rutas/rutas-routing.module';
+//import { RutasRoutingModule } from './rutas/rutas-routing.module';
+import { RouterModule } from '@angular/router';
 
-
+import {RutasRoutingModule }  from './rutas/rutas-routing.module';
 
 @NgModule({
   declarations: [ //nuestros compoentes
     AppComponent
   ],
   imports: [// dependencias del modulo
-    BrowserModule,RutasRoutingModule,
+    BrowserModule,
+    RutasRoutingModule,
     BrowserAnimationsModule,
     MaterialModule  // para animaciones 
   ],
