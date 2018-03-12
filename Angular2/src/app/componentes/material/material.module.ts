@@ -26,7 +26,8 @@ import {MatExpansionModule} from '@angular/material/expansion';
     MatToolbarModule,
     MatButtonModule,
     MatIconModule,
-    MatMenuModule
+    MatMenuModule,
+    MatExpansionModule
   ],
   declarations: [UnoComponent]
 })
