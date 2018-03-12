@@ -12,6 +12,7 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatMenuModule} from '@angular/material/menu';
 //panel 
 import {MatExpansionModule} from '@angular/material/expansion';
+import { BotonComponent } from './boton/boton.component';
 @NgModule({
   imports: [
     CommonModule,
@@ -29,6 +30,6 @@ import {MatExpansionModule} from '@angular/material/expansion';
     MatMenuModule,
     MatExpansionModule
   ],
-  declarations: [UnoComponent]
+  declarations: [UnoComponent, BotonComponent]
 })
 export class MaterialModule { }

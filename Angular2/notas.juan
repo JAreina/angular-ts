@@ -10,3 +10,8 @@ ng generate component  /componentes/material/1 --module /componentes/material
 
 
 RAMA DOS ---------------
+
+
+crear componente boton
+
+ng g component  /componentes/material/boton --module /componentes/material
