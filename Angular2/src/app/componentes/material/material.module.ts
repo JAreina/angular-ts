@@ -13,6 +13,7 @@ import {MatMenuModule} from '@angular/material/menu';
 //panel 
 import {MatExpansionModule} from '@angular/material/expansion';
 import { BotonComponent } from './boton/boton.component';
+
 @NgModule({
   imports: [
     CommonModule,
