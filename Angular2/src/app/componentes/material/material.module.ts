@@ -10,14 +10,16 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
 //menu
 import {MatMenuModule} from '@angular/material/menu';
-
+//panel 
+import {MatExpansionModule} from '@angular/material/expansion';
 @NgModule({
   imports: [
     CommonModule,
     MatToolbarModule,
     MatButtonModule,
     MatIconModule,
-    MatMenuModule
+    MatMenuModule,
+    MatExpansionModule
   ],
   exports: 
   [ //export para poder usar en otros componentes
