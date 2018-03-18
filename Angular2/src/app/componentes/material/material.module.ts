@@ -13,7 +13,8 @@ import {MatMenuModule} from '@angular/material/menu';
 //panel 
 import {MatExpansionModule} from '@angular/material/expansion';
 import { BotonComponent } from './boton/boton.component';
-
+import { InputComponent } from './input/input.component';
+import {MatInputModule} from '@angular/material/input';
 
 @NgModule({
   imports: [
@@ -22,7 +23,8 @@ import { BotonComponent } from './boton/boton.component';
     MatButtonModule,
     MatIconModule,
     MatMenuModule,
-    MatExpansionModule
+    MatExpansionModule,
+    MatInputModule
   ],
   exports: 
   [ //export para poder usar en otros componentes
@@ -30,8 +32,9 @@ import { BotonComponent } from './boton/boton.component';
     MatButtonModule,
     MatIconModule,
     MatMenuModule,
-    MatExpansionModule
+    MatExpansionModule,
+    MatInputModule
   ],
-  declarations: [UnoComponent, BotonComponent]
+  declarations: [UnoComponent, BotonComponent, InputComponent]
 })
 export class MaterialModule { }
