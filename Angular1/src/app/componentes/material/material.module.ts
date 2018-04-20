@@ -10,11 +10,6 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
 //menu
 import {MatMenuModule} from '@angular/material/menu';
-//panel 
-import {MatExpansionModule} from '@angular/material/expansion';
-import { BotonComponent } from './boton/boton.component';
-import { InputComponent } from './input/input.component';
-import {MatInputModule} from '@angular/material/input';
 
 @NgModule({
   imports: [
@@ -22,19 +17,15 @@ import {MatInputModule} from '@angular/material/input';
     MatToolbarModule,
     MatButtonModule,
     MatIconModule,
-    MatMenuModule,
-    MatExpansionModule,
-    MatInputModule
+    MatMenuModule
   ],
   exports: 
   [ //export para poder usar en otros componentes
     MatToolbarModule,
     MatButtonModule,
     MatIconModule,
-    MatMenuModule,
-    MatExpansionModule,
-    MatInputModule
+    MatMenuModule
   ],
-  declarations: [UnoComponent, BotonComponent, InputComponent]
+  declarations: [UnoComponent]
 })
 export class MaterialModule { }
